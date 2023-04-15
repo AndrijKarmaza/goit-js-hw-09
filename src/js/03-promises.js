@@ -24,7 +24,7 @@ function onSubmit(evt) {
     
     delay += stepInput;
   }
-} 
+}
 
 function createPromise(position, delay) {
   return new Promise((res, rej) => {
